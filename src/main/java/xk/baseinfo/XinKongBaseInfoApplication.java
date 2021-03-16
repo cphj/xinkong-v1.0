@@ -7,7 +7,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@MapperScan(basePackages = {"xk.baseinfo.mapper","xk.baseinfo.controller"})
+@MapperScan(basePackages = {"xk.baseinfo.mapper"})
 public class XinKongBaseInfoApplication {
 
     public static void main(String[] args) {
